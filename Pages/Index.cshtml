@@ -1,0 +1,12 @@
+﻿@page
+@model Ofentse.Pages.IndexModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1>@Model.Message</h1>
+
+<p>
+    Check out this awesome Spotify playlist:
+    <a href="@Model.SpotifyPlaylistLink" target="_blank">Click here to listen!</a>
+</p>
