@@ -56,11 +56,13 @@ C:\Users\thamy\OneDrive\Documents\Android Projects\Ofentse\wwwroot\lib\bootstrap
 C:\Users\thamy\OneDrive\Documents\Android Projects\Ofentse\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
 C:\Users\thamy\OneDrive\Documents\Android Projects\Ofentse\wwwroot\lib\jquery-validation\dist\additional-methods.js
 C:\Users\thamy\OneDrive\Documents\Android Projects\Ofentse\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+C:\Users\thamy\OneDrive\Documents\Android Projects\Ofentse\wwwroot\css\style.css
 C:\Users\thamy\OneDrive\Documents\Android Projects\Ofentse\wwwroot\favicon.ico
 C:\Users\thamy\OneDrive\Documents\Android Projects\Ofentse\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
 C:\Users\thamy\OneDrive\Documents\Android Projects\Ofentse\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
 C:\Users\thamy\OneDrive\Documents\Android Projects\Ofentse\wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\css\site.css
+wwwroot\css\style.css
 wwwroot\favicon.ico
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css

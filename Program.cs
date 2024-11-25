@@ -1,3 +1,5 @@
+using Microsoft.AspNetCore.Authentication;
+
 namespace Ofentse
 {
     public class Program
@@ -6,28 +8,33 @@ namespace Ofentse
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Add services to the container.
+            // Add services to the container
             builder.Services.AddRazorPages();
+
+            // Add services for authentication
+            builder.Services.AddAuthentication("BasicAuthentication")
+                .AddScheme<AuthenticationSchemeOptions, BasicAuthenticationHandler>("BasicAuthentication", null);
+
+            builder.Services.AddAuthorization();
 
             var app = builder.Build();
 
-            // Configure the HTTP request pipeline.
+            // Configure the HTTP request pipeline
             if (!app.Environment.IsDevelopment())
             {
                 app.UseExceptionHandler("/Error");
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
 
             app.UseHttpsRedirection();
+            app.UseStaticFiles();
 
             app.UseRouting();
 
-            app.UseAuthorization();
+            app.UseAuthentication(); // Authentication middleware
+            app.UseAuthorization();  // Authorization middleware
 
-            app.MapStaticAssets();
-            app.MapRazorPages()
-               .WithStaticAssets();
+            app.MapRazorPages();
 
             app.Run();
         }

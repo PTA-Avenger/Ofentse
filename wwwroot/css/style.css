@@ -1,0 +1,97 @@
+body{
+    font-family:Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+    color: #333;
+}
+
+header{
+    text-align: center;
+    padding: 20px;
+    background: #ff6f61;
+    color: white;
+}
+
+h1{
+    margin: 0;
+}
+
+.upload-section, .display-section{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input[type="file"]{
+    padding: 10px;
+}
+
+button{
+    padding: 10px 20px;
+    background: #ff6f61;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #e85b51;
+}
+
+.memory-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.memory-item{
+    flex: 1 1 calc(33.333% - 10%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f1f1f1;
+    border-radius: 8px;
+    overflow: hidden;
+    height: 200px;
+}
+
+img, video, audio{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.banner {
+    background: linear-gradient(to bottom, #ff6f61, #ffd6cc);
+    padding: 20px;
+    text-align: center;
+}
+
+.banner img {
+    display: block; /* Ensures the image takes up its own line */
+    width: 80%; /* Makes the image stretch across the page width */
+    height: auto; /* Keeps the image aspect ratio intact */
+    margin-top: 10px; /* Adds some space above the banner */
+    border-radius: 8px; /* Gives the image rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a soft shadow for a polished look */
+}

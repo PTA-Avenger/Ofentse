@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QLQ8M7rReAKFdWI9bHQY9+uUZ5+W1HzKKm0SrKV9K0w=",
+  "Hash": "YbKaR7uBYSYDZOYeYHNedn3AM7XtDauHe1JlN02S7xA=",
   "Source": "Ofentse",
   "BasePath": "_content/Ofentse",
   "Mode": "Default",
@@ -1277,6 +1277,27 @@
       "OriginalItemSpec": "C:\\Users\\thamy\\OneDrive\\Documents\\Android Projects\\Ofentse\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
+      "Identity": "C:\\Users\\thamy\\OneDrive\\Documents\\Android Projects\\Ofentse\\obj\\Debug\\net9.0\\compressed\\wb9x5fi60n-6cr4qojo6v.gz",
+      "SourceId": "Ofentse",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\thamy\\OneDrive\\Documents\\Android Projects\\Ofentse\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Ofentse",
+      "RelativePath": "css/style#[.{fingerprint=6cr4qojo6v}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\thamy\\OneDrive\\Documents\\Android Projects\\Ofentse\\wwwroot\\css\\style.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "fhzot6a6ao",
+      "Integrity": "o/5ukpjH/1he+ragXCBgFN+/KHnA39P81sFtrWyQc5M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\thamy\\OneDrive\\Documents\\Android Projects\\Ofentse\\wwwroot\\css\\style.css"
+    },
+    {
       "Identity": "C:\\Users\\thamy\\OneDrive\\Documents\\Android Projects\\Ofentse\\obj\\Debug\\net9.0\\compressed\\wky2d9hg72-61n19gt1b8.gz",
       "SourceId": "Ofentse",
       "SourceType": "Discovered",
@@ -1422,6 +1443,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\thamy\\OneDrive\\Documents\\Android Projects\\Ofentse\\wwwroot\\css\\style.css",
+      "SourceId": "Ofentse",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\thamy\\OneDrive\\Documents\\Android Projects\\Ofentse\\wwwroot\\",
+      "BasePath": "_content/Ofentse",
+      "RelativePath": "css/style#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6cr4qojo6v",
+      "Integrity": "Zk2zVhKfTn4tFqpsIYbrINxH7JzjaXliuH1/09Z3RNg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
       "Identity": "C:\\Users\\thamy\\OneDrive\\Documents\\Android Projects\\Ofentse\\wwwroot\\favicon.ico",
@@ -3022,6 +3064,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.6cr4qojo6v.css",
+      "AssetFile": "C:\\Users\\thamy\\OneDrive\\Documents\\Android Projects\\Ofentse\\obj\\Debug\\net9.0\\compressed\\wb9x5fi60n-6cr4qojo6v.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001383125864"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "722"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o/5ukpjH/1he+ragXCBgFN+/KHnA39P81sFtrWyQc5M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 25 Nov 2024 17:14:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Zk2zVhKfTn4tFqpsIYbrINxH7JzjaXliuH1/09Z3RNg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6cr4qojo6v"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Zk2zVhKfTn4tFqpsIYbrINxH7JzjaXliuH1/09Z3RNg="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.6cr4qojo6v.css",
+      "AssetFile": "C:\\Users\\thamy\\OneDrive\\Documents\\Android Projects\\Ofentse\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1863"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Zk2zVhKfTn4tFqpsIYbrINxH7JzjaXliuH1/09Z3RNg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 25 Nov 2024 17:14:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6cr4qojo6v"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Zk2zVhKfTn4tFqpsIYbrINxH7JzjaXliuH1/09Z3RNg="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.6cr4qojo6v.css.gz",
+      "AssetFile": "C:\\Users\\thamy\\OneDrive\\Documents\\Android Projects\\Ofentse\\obj\\Debug\\net9.0\\compressed\\wb9x5fi60n-6cr4qojo6v.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "722"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o/5ukpjH/1he+ragXCBgFN+/KHnA39P81sFtrWyQc5M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 25 Nov 2024 17:14:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6cr4qojo6v"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-o/5ukpjH/1he+ragXCBgFN+/KHnA39P81sFtrWyQc5M="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css",
+      "AssetFile": "C:\\Users\\thamy\\OneDrive\\Documents\\Android Projects\\Ofentse\\obj\\Debug\\net9.0\\compressed\\wb9x5fi60n-6cr4qojo6v.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001383125864"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "722"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o/5ukpjH/1he+ragXCBgFN+/KHnA39P81sFtrWyQc5M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 25 Nov 2024 17:14:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Zk2zVhKfTn4tFqpsIYbrINxH7JzjaXliuH1/09Z3RNg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Zk2zVhKfTn4tFqpsIYbrINxH7JzjaXliuH1/09Z3RNg="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css",
+      "AssetFile": "C:\\Users\\thamy\\OneDrive\\Documents\\Android Projects\\Ofentse\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1863"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Zk2zVhKfTn4tFqpsIYbrINxH7JzjaXliuH1/09Z3RNg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 25 Nov 2024 17:14:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Zk2zVhKfTn4tFqpsIYbrINxH7JzjaXliuH1/09Z3RNg="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css.gz",
+      "AssetFile": "C:\\Users\\thamy\\OneDrive\\Documents\\Android Projects\\Ofentse\\obj\\Debug\\net9.0\\compressed\\wb9x5fi60n-6cr4qojo6v.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "722"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o/5ukpjH/1he+ragXCBgFN+/KHnA39P81sFtrWyQc5M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 25 Nov 2024 17:14:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-o/5ukpjH/1he+ragXCBgFN+/KHnA39P81sFtrWyQc5M="
         }
       ]
     },

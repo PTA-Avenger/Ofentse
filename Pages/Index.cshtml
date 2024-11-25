@@ -1,12 +1,82 @@
 ﻿@page
 @model Ofentse.Pages.IndexModel
 @{
-    ViewData["Title"] = "Home Page";
+	ViewData["Title"] = "Memories";
 }
 
-<h1>@Model.Message</h1>
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset="utf-8" >
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Memories - @ViewData["Title"]</title>
+	<link rel="stylesheet" href="/css/style.css"/>
+</head>
+<body>
+	<header>
+		<h1>Welcome to Our Memory Box 💖</h1>
+		<! -- Banner Image -->
+		<div class="banner">
+			<img src="/images/banner.jpg" alt="Our Memories Banner"/>
+		</div>
+	</header>
 
-<p>
-    Check out this awesome Spotify playlist:
-    <a href="@Model.SpotifyPlaylistLink" target="_blank">Click here to listen!</a>
-</p>
+	<section class="upload-section">
+		<h2>Upload Memories</h2>
+		<form method="post" enctype="multipart/form-data">
+			<label for="memory">choose files to upload:</label>
+			<input type="file" id="memory" name="memory" multiple/>
+			<button type="submit">Upload</button>
+		</form>
+	</section>
+
+	<section class="display-section">
+		<h3>Our Memories</h3>
+		<div class="memory-gallery">
+			@if (Model.MemoryFiles != null && Model.MemoryFiles.Count > 0)
+			{
+				foreach (var memory in Model.MemoryFiles)
+				{
+					if (memory.FileType.StartsWith("image/"))
+					{
+						<div class="memory-item">
+							<img src="@memory.FileUrl" alt="Image Memory"/>
+						</div>
+					}
+					else if (memory.FileType.StartsWith("video/"))
+					{
+						<div class="memory-item">
+							<video controls>
+								<source src="@memory.FileUrl" type="@memory.FileType"/>
+							</video>
+						</div>
+					}
+					else if (memory.FileType.StartsWith("audio/"))
+					{
+						<div class="memory-item">
+							<audio controls>
+								<source src="@memory.FileUrl" type="@memory.FileType"/>
+								Your browser does not support audio tag
+							</audio>
+						</div>
+					}
+					else
+					{
+						<div class="memory-item">
+							<p>Message: @memory.FileName</p>
+						</div>
+					}
+				}
+			}
+			else
+			{
+				<p>No memories uploaded yet, Start adding some!</p>
+			}
+		</div>
+	</section>
+
+	<footer>
+		<p>Made with ❤️ by Us for Us</p>
+	</footer>
+</body>
+</html>

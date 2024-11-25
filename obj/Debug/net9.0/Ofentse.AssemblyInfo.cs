@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ofentse")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+add32b8118f77d8391c0fde0f4e28b51a00c7519")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ofentse")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ofentse")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

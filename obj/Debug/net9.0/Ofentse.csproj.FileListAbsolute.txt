@@ -96,3 +96,8 @@ C:\Users\thamy\OneDrive\Documents\Android Projects\Ofentse\obj\Debug\net9.0\refi
 C:\Users\thamy\OneDrive\Documents\Android Projects\Ofentse\obj\Debug\net9.0\Ofentse.pdb
 C:\Users\thamy\OneDrive\Documents\Android Projects\Ofentse\obj\Debug\net9.0\Ofentse.genruntimeconfig.cache
 C:\Users\thamy\OneDrive\Documents\Android Projects\Ofentse\obj\Debug\net9.0\ref\Ofentse.dll
+C:\Users\thamy\OneDrive\Documents\Android Projects\Ofentse\obj\Debug\net9.0\Ofentse.csproj.AssemblyReference.cache
+C:\Users\thamy\OneDrive\Documents\Android Projects\Ofentse\obj\Debug\net9.0\Ofentse.sourcelink.json
+C:\Users\thamy\OneDrive\Documents\Android Projects\Ofentse\bin\Debug\net9.0\System.Security.Permissions.dll
+C:\Users\thamy\OneDrive\Documents\Android Projects\Ofentse\obj\Debug\net9.0\compressed\wb9x5fi60n-6cr4qojo6v.gz
+C:\Users\thamy\OneDrive\Documents\Android Projects\Ofentse\obj\Debug\net9.0\Ofentse.csproj.Up2Date
